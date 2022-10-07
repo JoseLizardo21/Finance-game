@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+    <div id="ventSembrar">
+        <div id="filaSembrar">
+            <div id="colTerreno">
+                <div class="ctnTerreno">
+                    <div id="capaSembrar1" class="capaSuperior"></div>
+                    <div id="suelo1" class="suelo"></div>
+                </div>
+                <div class="ctnTerreno">
+                    <div id="capaSembrar2" class="capaSuperior"></div>
+                    <div id="suelo2"class="suelo"></div>
+                </div>
+                <div class="ctnTerreno">
+                    <div id="capaSembrar3" class="capaSuperior"></div>
+                    <div id="suelo3" class="suelo"></div>
+                </div>
+                <div class="ctnTerreno">
+                    <div id="capaSembrar4" class="capaSuperior"></div>
+                    <div id="suelo4" class="suelo"></div>
+                </div>
+                <div class="ctnTerreno">
+                    <div id="capaSembrar5" class="capaSuperior"></div>
+                    <div id="suelo5" class="suelo"></div>
+                </div>
+                <div class="ctnTerreno">
+                    <div id="capaSembrar6" class="capaSuperior"></div>
+                    <div id="suelo6" class="suelo"></div>
+                </div>
+            </div>
+            <div id="colHerramientas">
+                <div id="pico" class="itemshe"></div>
+                <div id="regadera" class="itemshe"></div>
+                <div id="pala" class="itemshe"></div>
+                <div id="semillas" class="itemshe"></div>
+                <div id="hogar" class="itemshe"></div>
+            </div>
+        </div>
+    </div>
+    <div id="retirarAhorros">
+        <div class="filaSalir">
+            <button id="salirRetirar">X</button>
+            <div id="filaRetirarAhorro">
+                <p>¿Cuanto deseas retirar?</p>
+                <input type="number" id="inpRetirarAhorro">
+                <button id="btn-retirar">Retirar</button>
+            </div>
+        </div>
+    </div>
+    <div id="ingresarAhorros">
+        <div class="filaSalir">
+            <button id="salirAhorros">X</button>
+            <div id="filaAhorro">
+                <p>¿Cuanto deseas ahorrar?</p>
+                <input type="number" id="inpAhorro">
+                <button id="btn-ahorrar">Ahorrar</button>
+            </div>
+        </div>
+    </div>
+    <div id="eleccionBanco">
+        <div class="filaSalir">
+            <button id="salir">X</button>
+        </div>
+        <p>¿Qué deseas hacer?</p>
+        <div id="filaBtns">
+            <button id="ahorrar">Ahorrar</button>
+            <button id="retirar">Retirar</button>
+            <button id="invertir">Invertir</button>
+        </div>
+    </div>
+    <canvas id="canvas" width="700" height="500"></canvas>
+    <script src="./src/scripts/jugador.js"></script>
+    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/scenes/sceneA.js"></script>
+    <script src="./src/scripts/scenes/sceneB.js"></script>
+    <script src="./src/scripts/scenes/sceneC.js"></script>
+</body>
+</html>
