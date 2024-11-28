@@ -1,0 +1,1 @@
+This project demonstrates the basic mechanics of a web game. The player can move left and right using keyboard events, and mouse events are also captured for various interactions. Please note that the game is still under development and is not yet complete
